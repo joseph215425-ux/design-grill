@@ -1,8 +1,8 @@
 # Progress
 
 ## Now
-- **Phase:** first draft of the skill, private repo
-- **Current step:** dry run #2 is done (Ground through the borrowing scan, stopped at Approve as expected) and the agreed fixes from its friction list are applied to `skills/design-grill/`. Next up: decide plugin vs. copy-folder install, then flip the repo public.
+- **Phase:** v0.1 published, repo public
+- **Current step:** all checklist items done — repo public, install copy-folder only, throwaway test folders confirmed gone. Nothing blocking.
 - **Model:** opusplan
 - **Last updated:** 2026-09-25
 
@@ -10,15 +10,15 @@
 - [x] Skill files: SKILL.md, ROUNDS.md, GAPS.md, BANNED-DEFAULTS.md, templates
 - [x] README with credit to Matt Pocock's grilling skill; MIT LICENSE with his notice
 - [x] Anonymized worked example (`examples/voice-archive.md`)
-- [ ] Joseph reads the example and OKs his (anonymized) words going public
+- [x] Joseph reads the example and OKs his (anonymized) words going public
 - [x] Dry run #1 on a small made-up project (`~/claude/design-grill-test`, "Pantry") — friction list compiled
 - [x] Grill Joseph through dry run #1's 7 proposed fixes — all answered, applied
 - [x] Dry run #2 on a new throwaway project (`~/claude/design-grill-test-2`, "Fieldmark") — self-driven, reached mock-switching, three gap-grill passes, and the borrowing scan; friction list compiled
 - [x] Grill Joseph through dry run #2's 5 proposed fixes — all answered, see resolutions below
 - [x] Apply the agreed fixes to `skills/design-grill/`
-- [ ] Delete `~/claude/design-grill-test` and `~/claude/design-grill-test-2` (both throwaway, neither a repo worth keeping, never push either)
-- [ ] Decide: also package as a Claude Code plugin (marketplace install) or copy-folder install only
-- [ ] Flip the GitHub repo to public
+- [x] Delete `~/claude/design-grill-test` and `~/claude/design-grill-test-2` — already gone, nothing to delete
+- [x] Decide: also package as a Claude Code plugin (marketplace install) or copy-folder install only — decided copy-folder only, no plugin manifest
+- [x] Flip the GitHub repo to public — confirmed public via GitHub API 2026-09-25
 
 ## Known issues
 - None open. Resolutions from dry run #1's fix grill (2026-09-25):
