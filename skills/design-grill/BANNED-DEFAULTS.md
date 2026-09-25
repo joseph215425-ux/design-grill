@@ -1,6 +1,6 @@
 # Banned defaults (starter list)
 
-Tells of a generated UI: looks an assistant or a template reaches for when nobody decided. Copy this list into `DESIGN.md` at the start of the grill, then let the rounds adjust it. A ban gets narrowed when the user wants something close to it that carries real information; record why.
+Tells of a generated UI: looks an assistant or a template reaches for when nobody decided. Copy this list into `DESIGN.md` during Ground (SKILL.md step 1), then let the rounds adjust it. A ban gets narrowed when the user wants something close to it that carries real information; record why.
 
 - A cream background with a terracotta or clay accent; a near-black background with one neon accent; purple-to-blue gradients.
 - The same radius and the same soft grey shadow on every card, button, and badge.

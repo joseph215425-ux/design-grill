@@ -23,7 +23,7 @@ Copy the `skills/design-grill` folder into one of:
 - `~/.claude/skills/` to use it in every project, or
 - `<your project>/.claude/skills/` for one project.
 
-Then, in Claude Code, say "design grill" or type `/design-grill`.
+Then, in Claude Code, say "design grill" or type `/design-grill`. Skills load at session start, so if you copy this mid-session, start a new session before invoking it.
 
 ## What's in the skill
 

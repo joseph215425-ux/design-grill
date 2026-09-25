@@ -11,10 +11,12 @@ The output is a design spec (`DESIGN.md`) and a round log. The skill stops at an
 
 Keep one question style throughout, the **grill**: work in rounds, ask everything whose prerequisites are settled (the **frontier**), number each question, give your recommended answer, then wait. A pick that depends on another open question waits for a later round. When a question has a few discrete options and the harness has a multiple-choice tool, use it; links and mocks the user has to open go in plain chat text, since some choice UIs hide the text above them.
 
+Open question, untested: how numbered questions (1, 2...) combine with a round's own lettered options (A, B, C) when two frontier questions land in the same round — no dry run has hit this yet.
+
 ## 1. Ground
 
-1. Read the project (README, docs, code, any existing design notes). Draft section 1 of `DESIGN.md` from [templates/DESIGN.md](templates/DESIGN.md): **subject** (what the product is made of), **primary job** (what a typical visit does), **audience** (who, on what device), **consequence** (what that means for the look). Then name the **hero moment**: the one screen that gets the most design effort and that every later page copies.
-2. Confirm both with the user in one round. Ask only for what the project can't tell you.
+1. Create `docs/design/DESIGN.md` from [templates/DESIGN.md](templates/DESIGN.md). Read the project (README, docs, code, any existing design notes). Draft section 1: **subject** (what the product is made of), **primary job** (what a typical visit does), **audience** (who, on what device), **consequence** (what that means for the look). Then name the **hero moment**: the one screen that gets the most design effort and that every later page copies. Copy the starter list from [BANNED-DEFAULTS.md](BANNED-DEFAULTS.md) into section 4 (Banned defaults) — the rounds narrow it from here.
+2. Confirm with the user, in the same numbered/recommend/wait grill format as reaction rounds, but only for the fields the project's own materials didn't already make clear: state what's already settled from the read, and ask only the gaps.
 3. Create the log at `docs/design/grill-log.md` from [templates/grill-log.md](templates/grill-log.md).
 
 Done when the user has confirmed section 1 and the hero moment, and the log exists.
@@ -34,7 +36,7 @@ Done when every dimension in ROUNDS.md that applies to this project has a pick, 
 
 ## 3. Draft the spec
 
-Fill `DESIGN.md` from the template: rules, banned list, tokens, and page patterns. Every token and rule gets a reason that points at a round ("round 7: white page, one blue accent"). A value you can't tie to a round or to section 1 is a **gap**; mark it and keep going.
+Fill the rest of `DESIGN.md` from the template: rules, tokens, and page patterns (the banned list is already in place from Ground, narrowed by whatever the rounds changed). Every token and rule gets a reason that points at a round ("round 7: white page, one blue accent"). A value you can't tie to a round or to section 1 is a **gap**; mark it and keep going.
 
 Done when every section of the template is filled or marked as a gap.
 
