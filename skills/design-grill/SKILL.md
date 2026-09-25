@@ -11,7 +11,7 @@ The output is a design spec (`DESIGN.md`) and a round log. The skill stops at an
 
 Keep one question style throughout, the **grill**: work in rounds, ask everything whose prerequisites are settled (the **frontier**), number each question, give your recommended answer, then wait. A pick that depends on another open question waits for a later round. When a question has a few discrete options and the harness has a multiple-choice tool, use it; links and mocks the user has to open go in plain chat text, since some choice UIs hide the text above them.
 
-Open question, untested: how numbered questions (1, 2...) combine with a round's own lettered options (A, B, C) when two frontier questions land in the same round — no dry run has hit this yet.
+When a round's frontier has more than one question, number the frontier (1, 2...) and, within a question, letter its own discrete options (A, B...) if it has them — tested in a dry run's gap grill and reads clearly.
 
 ## 1. Ground
 
@@ -57,7 +57,7 @@ Also look at 3 to 5 well-known products in the category for one specific thing e
 
 Then write "What makes this look like itself" in three sentences. If they read as if they could describe any app in the category, the review isn't done.
 
-Done when every choice has a verdict, every "changed" row is approved, and the three sentences name things only this product has.
+Done when every choice has a verdict, every "changed" row has an approved replacement, and the three sentences name things only this product has. A "changed" row with no replacement yet means this step isn't done — loop back on it rather than moving on to Approve.
 
 ## 6. Approve
 

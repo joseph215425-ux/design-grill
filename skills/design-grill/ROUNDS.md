@@ -29,7 +29,7 @@ Broad to narrow, so each round builds on settled ground. Skip any that don't app
 
 Links stop helping once the question is how *this* product looks, usually by the color-strength round. From then on, build one self-contained HTML mock and keep updating it:
 
-- One page, one stable URL or file path for the whole grill, with a version number in the page and in the log (v1, v2...). Use a hosted page if the harness can publish one; otherwise a local HTML file the user opens.
+- One page, one stable URL or file path for the whole grill, with a version number in the page and in the log (v1, v2...). Use a hosted page if the harness can publish one; otherwise a local HTML file the user opens. Keep the version number and any other scaffolding (dev labels, placeholder chrome) in plain browser-default styling, never the product's own type or color choices — scaffolding styled like a real pick can quietly violate the banned list or get mistaken for a design decision, and nothing in the reaction rounds is positioned to catch that; only a gap scan would.
 - Made-up content shaped like the real thing (realistic names, lengths, numbers), never the user's private data.
 - Options side by side, or behind a small switch, labeled to match the round's question.
 - Newest section at the top; remove options once they're decided so the page stays readable.

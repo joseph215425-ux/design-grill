@@ -2,6 +2,8 @@
 
 A gap is anything the draft decides by default rather than by the user. Scan for each kind:
 
+For the uncovered-cases list below, check every line against the draft one at a time — an overall impression scan misses real gaps even when the list is right there; a dry run's "done" verdict on two separate passes each missed cases a line-by-line check then caught.
+
 - **Unreasoned values:** a token, size, or rule with no round or section-1 reason next to it.
 - **Contradictions:** two picks that can't both hold (a see-through bar that must also meet a contrast rule; "one accent" plus a second colored link style).
 - **Broken rules:** a pick that breaks the draft's own rules or banned list without the rule being narrowed.

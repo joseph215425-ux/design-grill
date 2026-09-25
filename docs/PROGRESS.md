@@ -2,7 +2,7 @@
 
 ## Now
 - **Phase:** first draft of the skill, private repo
-- **Current step:** grill on the dry-run friction list is done (all 7 questions answered) and the agreed fixes are applied to `skills/design-grill/` and `README.md`. Next up is a second, longer dry run before going public.
+- **Current step:** dry run #2 is done (Ground through the borrowing scan, stopped at Approve as expected) and the agreed fixes from its friction list are applied to `skills/design-grill/`. Next up: decide plugin vs. copy-folder install, then flip the repo public.
 - **Model:** opusplan
 - **Last updated:** 2026-09-25
 
@@ -12,19 +12,26 @@
 - [x] Anonymized worked example (`examples/voice-archive.md`)
 - [ ] Joseph reads the example and OKs his (anonymized) words going public
 - [x] Dry run #1 on a small made-up project (`~/claude/design-grill-test`, "Pantry") — friction list compiled
-- [x] Grill Joseph through the 7 proposed fixes — all answered, see resolutions below
-- [x] Apply the agreed fixes to `skills/design-grill/` and `README.md`
-- [ ] Run a second, longer dry run (new throwaway test project) that reaches mock-switching (round 8+), the full gap scan, and the borrowing scan — none of which dry run #1 exercised
-- [ ] Delete `~/claude/design-grill-test` once the second dry run is done and confirmed (throwaway, not a repo, never push it)
+- [x] Grill Joseph through dry run #1's 7 proposed fixes — all answered, applied
+- [x] Dry run #2 on a new throwaway project (`~/claude/design-grill-test-2`, "Fieldmark") — self-driven, reached mock-switching, three gap-grill passes, and the borrowing scan; friction list compiled
+- [x] Grill Joseph through dry run #2's 5 proposed fixes — all answered, see resolutions below
+- [x] Apply the agreed fixes to `skills/design-grill/`
+- [ ] Delete `~/claude/design-grill-test` and `~/claude/design-grill-test-2` (both throwaway, neither a repo worth keeping, never push either)
 - [ ] Decide: also package as a Claude Code plugin (marketplace install) or copy-folder install only
 - [ ] Flip the GitHub repo to public
 
 ## Known issues
-- None open. Resolutions from the fix grill (2026-09-25):
+- None open. Resolutions from dry run #1's fix grill (2026-09-25):
   1. `DESIGN.md` now has an explicit output path: `docs/design/DESIGN.md` (`SKILL.md` step 1.1).
   2. Banned list is copied into `DESIGN.md` during Ground (step 1), not at step 3; rounds narrow it in place. Fixed the wording conflict between `BANNED-DEFAULTS.md` and `SKILL.md` step 3.
   3. Ground confirmation (`SKILL.md` step 1.2) now explicitly uses the same numbered/recommend/wait grill format as reaction rounds, filtered to only the fields the project's own materials didn't already make clear.
-  4. Numbering + A/B/C-labeled options together is still untested (never hit a round with two simultaneous frontier questions) — left as a noted open question in `SKILL.md` rather than guessing a fix.
+  4. Numbering + A/B/C-labeled options together was untested at the time — resolved in dry run #2, see below.
   5. `README.md`'s Install section now warns that skills load at session start, so copying mid-session needs a fresh session before it's invocable.
-  6. Decided to run a second, longer dry run before flipping the repo public — see Next steps.
+  6. Decided to run a second, longer dry run before flipping the repo public — done, see below.
   7. Decided self-driven mechanical reaction rounds (used to dry-run without a live user) stay an undocumented one-off testing accommodation, not documented skill behavior.
+- Resolutions from dry run #2's fix grill (2026-09-25):
+  1. Numbering + A/B/C-labeled options together, tested in gap grill 1 and reads clearly — `SKILL.md`'s "untested" note replaced with a line stating the pattern.
+  2. Two gap-scan passes each missed real gaps by scanning GAPS.md's uncovered-cases list for an overall impression rather than line by line — `GAPS.md` now says to check every line.
+  3. A mock's own scaffolding (its version label) violated the banned-defaults list and nothing in the reaction rounds was positioned to catch it — `ROUNDS.md` now says to keep scaffolding in plain browser-default styling, out of the design system.
+  4. Confirmed, not a defect: Approve still can't be dry-run without a real approver on a real device.
+  5. An unresolved "Generic, changed" row in the borrowing scan now explicitly blocks Approve — `SKILL.md` step 5 says to loop back rather than move on.
